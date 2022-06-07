@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding: 18px 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    border-top:10px solid#2D8A25;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.navbar-logo-text {
+    margin-left: 10px;
+}
+
+.navbar-logo-text h1 {
+    color: black;
+    font-weight: 700;
+}
+
+.navbar-logo-text p {
+    margin-top: -10px;
+    font-size: 11px;
+}
+
+.navbar-link-parent {
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+.navbar-item {
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+}
+
+.item-rounded {
+    border-radius: 20px;
+    background-color: green;
+    padding: 5px 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hamburger {
+    color: green;
+    margin-right: 1px;
+}
+.box_slider {
+    height: 100vh;
+    border: 1px solid;
+    background-image:  url('image/2012.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    
+
+}
+
+
+.slider_text {
+    text-align: center;
+    padding: 400px 200px;
+}
+
+.u-section-2 .u-sheet-1 {
+    min-height: 100px;
+}
+.main_content h3 {
+    text-align: center;
+}
+.main_content h2 {
+    text-align: center;
+}
+
+.main_content p {
+    text-align: center;
+}
